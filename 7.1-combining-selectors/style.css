@@ -1,1 +1,13 @@
-/* Write your code here: */
+/* Combining CSS Selectors Practice */
+
+/* TODO: Style elements with the "done" class inside the "box" class */
+/* Example: .box .done { } */
+
+/* TODO: Style list items that have the "done" class */
+/* Example: li.done { } */
+
+/* TODO: Style paragraphs with class "done" that are direct children of div with class "box" */
+/* Example: .box > p.done { } */
+
+/* TODO: Apply styles to multiple selectors at once */
+/* Example: h1, h2 { } */

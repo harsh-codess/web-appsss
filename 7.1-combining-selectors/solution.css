@@ -1,25 +1,32 @@
-/* Group */
+/* CSS Selector Combinations - Solution */
+
+/* Group Selector: Apply same styles to multiple elements */
+/* Syntax: selector1, selector2 { } */
 h1,
 h2 {
   color: blueviolet;
 }
 
-/* Child */
+/* Child Selector: Direct children only (>) */
+/* Syntax: parent > child { } */
 .box > p {
   color: firebrick;
 }
 
-/* Descendent */
+/* Descendant Selector: All nested elements (space) */
+/* Syntax: ancestor descendant { } */
 .box li {
   color: blue;
 }
 
-/* Chained */
+/* Chained Selector: Element with specific class (no space) */
+/* Syntax: element.class { } */
 li.done {
   color: green;
 }
 
-/* Multiple Combiners */
+/* Multiple Combiners: Combining different selector types */
+/* Descendant + Chained: ul paragraphs with "done" class */
 ul p.done {
   font-size: 0.5rem;
 }
