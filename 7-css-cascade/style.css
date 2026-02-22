@@ -1,23 +1,41 @@
+/**
+ * CSS Cascade Project - Demonstrating Specificity and Inheritance
+ * 
+ * This stylesheet shows how CSS specificity works:
+ * - ID selectors override class selectors
+ * - Class selectors override element selectors
+ * - More specific selectors win in the cascade
+ */
+
+/* ID Selector - Highest Specificity */
 #outer-box {
   background-color: rgb(3, 1, 3);
+  padding: 5px;
 }
 
+/* Class Selector - Medium Specificity */
 .box {
   background-color: blue;
   padding: 10px;
+  margin: 5px;
 }
 
+/* Class Selector - Overrides parent style */
 .inner-box {
   background-color: red;
 }
 
+/* Element Selector - Lowest Specificity */
 p {
   color: yellow;
   margin: 0;
   padding: 0;
+  font-family: Arial, sans-serif;
 }
 
+/* Class Selector - Overrides element selector for color */
 .white-text {
   color: white;
+  font-weight: bold;
 }
 
